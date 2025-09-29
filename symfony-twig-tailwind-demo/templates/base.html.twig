@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ title|default('Demo App') }}</title>
+  <link rel="stylesheet" href="/build/app.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4">
+      <h1 class="text-xl font-semibold">Demo Studio Booking</h1>
+    </div>
+  </header>
+  <main class="container mx-auto px-4 py-6">
+    {% block body %}{% endblock %}
+  </main>
+  <footer class="container mx-auto px-4 py-6 text-sm text-gray-600">
+    © Demo
+  </footer>
+</body>
+</html>

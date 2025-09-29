@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <div class="col-span-2">
+    <h2 class="text-2xl font-bold mb-4">Find and Book Studios</h2>
+    <p class="mb-6">This demo shows a minimal Twig template styled with Tailwind. Build on top of this scaffold to add real booking flows and components.</p>
+    <div class="bg-white p-4 rounded shadow">
+      <h3 class="font-semibold">Featured Studio</h3>
+      <p class="text-sm text-gray-600">A short description of the studio.</p>
+    </div>
+  </div>
+  <aside class="bg-white p-4 rounded shadow">
+    <h3 class="font-semibold">Filters</h3>
+    <p class="text-sm text-gray-600">Location, date, capacity, price</p>
+  </aside>
+</div>
+{% endblock %}
